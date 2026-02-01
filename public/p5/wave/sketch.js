@@ -5,7 +5,8 @@ new p5((p) => {
   const getSize = () => {
     const container = document.getElementById("p5-container");
     const width = container ? container.clientWidth : 640;
-    const height = Math.round(width * 0.56);
+    const isPortrait = window.matchMedia("(max-width: 1024px)").matches;
+    const height = Math.round(width * (isPortrait ? 16 / 9 : 9 / 16));
     return { width, height };
   };
 
