@@ -1,0 +1,8 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#f3eee6"/>
+  <path d="M0 120 C 100 80, 200 160, 300 120 C 400 80, 500 160, 600 120 C 700 80, 800 160, 900 120" stroke="#2f5d62" stroke-width="10" opacity="0.4"/>
+  <path d="M0 220 C 120 180, 240 260, 360 220 C 480 180, 600 260, 720 220 C 840 180, 960 260, 1080 220" stroke="#1f3d40" stroke-width="10" opacity="0.35"/>
+  <path d="M0 320 C 140 280, 280 360, 420 320 C 560 280, 700 360, 840 320 C 980 280, 1120 360, 1260 320" stroke="#3f7d85" stroke-width="10" opacity="0.28"/>
+  <rect x="40" y="380" width="220" height="80" rx="18" fill="#ffffff" opacity="0.9"/>
+  <text x="70" y="430" font-family="IBM Plex Sans, sans-serif" font-size="28" fill="#1f1f1f">Wave Study</text>
+</svg>

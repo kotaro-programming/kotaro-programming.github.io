@@ -1,0 +1,76 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  font-size: clamp(15px, 1.2vw, 17px);
+}
+
+main {
+  display: block;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 32px 0;
+}
+
+.markdown {
+  line-height: 1.8;
+  font-size: clamp(0.98rem, 1.4vw, 1.05rem);
+}
+
+.markdown h2 {
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+  font-size: clamp(1.3rem, 2.4vw, 1.6rem);
+}
+
+.markdown h3 {
+  margin-top: 1.6rem;
+  margin-bottom: 0.6rem;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+}
+
+.markdown p {
+  margin: 0 0 1.1rem;
+}
+
+.markdown ul,
+.markdown ol {
+  padding-left: 1.4rem;
+}
+
+.markdown code {
+  background: rgba(47, 93, 98, 0.08);
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.markdown pre {
+  background: #1f1f1f;
+  color: #f9f6ef;
+  padding: 16px;
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+.markdown pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+.markdown blockquote {
+  border-left: 3px solid var(--accent);
+  margin: 1.4rem 0;
+  padding-left: 1rem;
+  color: var(--muted);
+}
+
+#p5-container {
+  width: 100%;
+}
